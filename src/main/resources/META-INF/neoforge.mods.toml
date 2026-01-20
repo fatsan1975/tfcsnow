@@ -1,0 +1,23 @@
+modLoader="javafml"
+loaderVersion="[1,)"
+license="All Rights Reserved"
+
+[[mods]]
+modId="tfcsnow"
+version="1.0.0"
+displayName="TFC Snow Scaling"
+description="Temperature based snow accumulation for TerraFirmaCraft"
+
+[[dependencies.tfcsnow]]
+modId="neoforge"
+mandatory=true
+versionRange="[20.4,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.tfcsnow]]
+modId="tfc"
+mandatory=true
+versionRange="[4.0.18,)"
+ordering="AFTER"
+side="SERVER"
